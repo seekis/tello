@@ -23,7 +23,7 @@ import time
 import traceback
 
 class Tello:
-    """Wrapper to simply interactions with the Ryze Tello drone."""
+    """Wrapper to simplify interactions with the Ryze Tello drone."""
 
     def __init__(self, local_ip, local_port, imperial=True, command_timeout=.3, tello_ip='192.168.10.1', tello_port=8889):
         """Binds to the local IP/port and puts the Tello into command mode.
